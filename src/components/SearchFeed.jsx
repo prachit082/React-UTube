@@ -2,10 +2,11 @@ import { useEffect, useState } from "react";
 import { Box, Typography } from "@mui/material";
 import { useParams } from "react-router-dom";
 import { fetchFromAPI } from "../utils/fetchFromAPI";
+import { Videos} from "./";
 
 const SearchFeed = () => {
   
-  const [setVideos] = useState(null);
+  const [videos, setVideos] = useState(null);
   const {searchTerm} = useParams();
 
   useEffect(() => {
@@ -20,6 +21,8 @@ const SearchFeed = () => {
         <Typography variant="h4" fontWeight="bold" mb={2} sx={{ color: "white" }}>
           Search Results for : <span style={{ color: "#FC1503" }}>{searchTerm}</span>videos
         </Typography>
+
+        <Videos videos={videos} />
       </Box>
   );
 };
