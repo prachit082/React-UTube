@@ -20,7 +20,7 @@ const Feed = () => {
         <SideBar selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} />
         
         <Typography className="copyright" variant="body2" sx={{ mt: 1.5, color: "#fff", }}>
-          Copyright © 2025 UTube by Prachit
+          <p><a href="https://github.com/prachit082" style={{color: '#fff', textDecoration: 'none'}} target="_blank" rel="noopener noreferrer">Copyright © 2025 UTube by Prachit</a></p>
         </Typography>
       </Box>
 
