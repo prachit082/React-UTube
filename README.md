@@ -1,5 +1,7 @@
 # React UTube - A YouTube Clone
 
+![image](Image.png)
+
 ---
 
 UTube is a YouTube clone developed by Prachit and hosted on Vercel. One of the standout features of UTube is its effective utilization of MaterialUI, which provides a visually appealing and intuitive interface for users to navigate. Additionally, the clone was built using ReactJS, a powerful JavaScript library for building user interfaces, which allows for greater flexibility and customization. Overall, UTube is a great example of a well-designed and functional video sharing platform that has taken advantage of the latest web development technologies.
